@@ -9,9 +9,9 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RestClient {
-    public static final String TOKEN = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyaW1zIiwiYXV0aCI6IlJPTEVfQURNSU4sUk9MRV9NQU5BR0VSLFJPTEVfVVNFUixST0xFX1dBTEwiLCJleHAiOjE1MzUxOTIyOTR9.cOqqM4sD40Z5VTSUFZyft_z2WFxPPBQ-kv1GsUTQlKZ-g3jjn_Xw-_MYXiI_MgzGDSBxkfm3MVICDCMPggemuQ";
-    static final String URL = "192.168.2.247";
-    static final String SERVER_PORT = "8080";
+    public static final String TOKEN = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfTUFOQUdFUixST0xFX1NUQUZGLFJPTEVfVVNFUiIsImV4cCI6MTYwMjE4ODM0OH0.X4ZgYEV5fxaQGb6DqKn6GFAwBlwvfQ6yIo7nUWRDX6Bj8bmXboxJe2ajC9wenuusYikHpHxN60ePZRnanvi38Q";
+    static final String URL = "165.227.227.126";
+    static final String SERVER_PORT = "8081";
     private static final String TAG = RestClient.class.getSimpleName();
     private static final Object lock = new Object();
     private static RestClient instance;

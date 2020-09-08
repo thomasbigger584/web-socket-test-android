@@ -23,8 +23,8 @@ public class WebSocketClient {
 
     private static final String TAG = WebSocketClient.class.getSimpleName();
 
-    private static final String WEBSOCKET_ENDPOINT = "/websocket/incident-wall/websocket";
-    private static final String WEBSOCKET_TOPIC = "/topic/event-log";
+    private static final String WEBSOCKET_ENDPOINT = "/websocket/tracker/websocket";
+    private static final String WEBSOCKET_TOPIC = "/topic/venue";
 
     private static final Object lock = new Object();
     private static WebSocketClient instance;
